@@ -15,13 +15,13 @@ namespace InterfaceExercise
     public interface IVehicle
     {
 
-        bool needsOilChange { get; set; }
+        bool NeedsOilChange { get; set; }
 
-        bool hasWorkingBrakes { get; set; }
+        bool HasWorkingBrakes { get; set; }
 
-        bool hasBrokenWindows { get; set; }
+        bool HasBrokenWindows { get; set; }
 
-        bool hasOldTires { get; set; }
+        bool HasOldTires { get; set; }
 
         public void DiplayRepairList();
 

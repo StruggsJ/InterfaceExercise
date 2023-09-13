@@ -17,40 +17,40 @@ namespace InterfaceExercise
 {
     public class Truck : ICompany, IVehicle
     {
-        public string companyName { get; set; }
-        public string companyModel { get; set; }
-        public int companyYear { get; set; }
+        public string CompanyName { get; set; }
+        public string CompanyModel { get; set; }
+        public int CompanyYear { get; set; }
 
 
-        public bool needsOilChange { get; set; }
-        public bool hasWorkingBrakes { get; set; }
-        public bool hasBrokenWindows { get; set; }
-        public bool hasOldTires { get; set; }
+        public bool NeedsOilChange { get; set; }
+        public bool HasWorkingBrakes { get; set; }
+        public bool HasBrokenWindows { get; set; }
+        public bool HasOldTires { get; set; }
 
 
-        public bool hasFunctionalTailgates { get; set; } = true;
-        public bool hasCleanBedFloor { get; set; } = true;
+        public bool HasFunctionalTailgates { get; set; } = true;
+        public bool HasCleanBedFloor { get; set; } = true;
 
         public void DisplayInfo()
         {
-            Console.WriteLine($"Name: {companyName}");
-            Console.WriteLine($"Model: {companyModel}");
-            Console.WriteLine($"Year: {companyYear}");
+            Console.WriteLine($"Name: {CompanyName}");
+            Console.WriteLine($"Model: {CompanyModel}");
+            Console.WriteLine($"Year: {CompanyYear}");
 
         }
 
         public void DiplayRepairList()
         {
-            Console.WriteLine($"Needs Oil Change: {needsOilChange}");
-            Console.WriteLine($"Needs Brakes Replaced: {hasWorkingBrakes}");
-            Console.WriteLine($"Needs Windows Replaced: {hasBrokenWindows}");
-            Console.WriteLine($"Needs Tires Replaced: {hasOldTires}");
+            Console.WriteLine($"Needs Oil Change: {NeedsOilChange}");
+            Console.WriteLine($"Needs Brakes Replaced: {HasWorkingBrakes}");
+            Console.WriteLine($"Needs Windows Replaced: {HasBrokenWindows}");
+            Console.WriteLine($"Needs Tires Replaced: {HasOldTires}");
         }
 
         public void SpecificList()
         {
-            Console.WriteLine($"Needs Tailgates Repair: {hasFunctionalTailgates}");
-            Console.WriteLine($"Bed Floor Needs Cleaning: {hasCleanBedFloor}");
+            Console.WriteLine($"Needs Tailgates Repair: {HasFunctionalTailgates}");
+            Console.WriteLine($"Bed Floor Needs Cleaning: {HasCleanBedFloor}");
         }
 
     }

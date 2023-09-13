@@ -14,49 +14,49 @@ namespace InterfaceExercise
 
             var car = new Car
             {
-                companyYear = 2019,
-                companyName = "Kia",
-                companyModel = "Optima LX Sedan",
+                CompanyYear = 2019,
+                CompanyName = "Kia",
+                CompanyModel = "Optima LX Sedan",
 
-                needsOilChange = false,
-                hasWorkingBrakes = false,
-                hasBrokenWindows = true,
-                hasOldTires = true,
+                NeedsOilChange = false,
+                HasWorkingBrakes = false,
+                HasBrokenWindows = true,
+                HasOldTires = true,
 
-                hasFunctionalTrunk = true,
-                hasSpareWheel= false,
+                HasFunctionalTrunk = true,
+                HasSpareWheel= false,
                 
             };
 
             var truck = new Truck
             {
-                companyYear = 2020,
-                companyName = "Ram",
-                companyModel = "1500",
+                CompanyYear = 2020,
+                CompanyName = "Ram",
+                CompanyModel = "1500",
 
-                needsOilChange = false,
-                hasWorkingBrakes = true,
-                hasBrokenWindows = true,
-                hasOldTires = false,
+                NeedsOilChange = false,
+                HasWorkingBrakes = true,
+                HasBrokenWindows = true,
+                HasOldTires = false,
 
-                hasFunctionalTailgates = true,
-                hasCleanBedFloor = false,
+                HasFunctionalTailgates = true,
+                HasCleanBedFloor = false,
 
             };
 
             var suv = new SUV
             {
-                companyYear = 2020,
-                companyName = "Jeep",
-                companyModel = "Compass",
+                CompanyYear = 2020,
+                CompanyName = "Jeep",
+                CompanyModel = "Compass",
 
-                needsOilChange = false,
-                hasWorkingBrakes = false,
-                hasBrokenWindows = true,
-                hasOldTires = true,
+                NeedsOilChange = false,
+                HasWorkingBrakes = false,
+                HasBrokenWindows = true,
+                HasOldTires = true,
 
-                hasFunctionalSunRoof = false,
-                canDriveRoughSurface = true,
+                HasFunctionalSunRoof = false,
+                CanDriveRoughSurface = true,
 
             };
 

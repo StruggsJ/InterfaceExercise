@@ -18,11 +18,11 @@ namespace InterfaceExercise
 {
     public interface ICompany
     {
-        string companyName { get; set; } //Car's Make
+        string CompanyName { get; set; } //Car's Make
 
-        string companyModel { get; set; }
+        string CompanyModel { get; set; }
 
-        int companyYear { get; set; }
+        int CompanyYear { get; set; }
 
         
 
